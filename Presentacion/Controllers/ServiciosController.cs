@@ -38,7 +38,7 @@ namespace Presentacion.Controllers
             }
             catch (Exception x)
             {
-                ModelState.AddModelError("", "Se ha producido un error para registrar un vehículo");
+                ModelState.AddModelError("", "Se ha producido un error para registrar un Servicio");
                 return View(servicio);
             }
 
